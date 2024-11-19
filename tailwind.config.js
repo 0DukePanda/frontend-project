@@ -8,7 +8,8 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {},
+		colors: {}
 	},
 
 	plugins: [typography, forms, containerQueries, aspectRatio, require('daisyui')]

@@ -1,3 +1,4 @@
-<h1 class="text-pink-500">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-<button class="btn text-pink-500">( ͡~ ͜ʖ ͡°)</button>
+<h1 class="text-2xl font-semibold text-pink-500">Age Calculator</h1>
+<div
+	class="flex-container box-content h-[450px] w-[800px] border-4 border-red-700 p-4"
+></div>
