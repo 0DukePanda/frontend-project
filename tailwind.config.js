@@ -9,25 +9,15 @@ export default {
 
 	theme: {
 		extend: {
-			colors: {
-				purple: '#854dff',
-				lightred: '#ff5757',
-				red: '#ff0000',
-				white: '#ffffff',
-				offwhite: '#f0f0f0',
-				lightgrey: '#dbdbdb',
-				smokeygrey: '#716f6f',
-				offblack: '#141414',
-				pink: '#ff57ab',
-				black: '#000000',
-				blue: '#0000ff',
-				lightblue: '#57aaff',
-				green: '#00ff00',
-				yellow: '#ffff00',
-				orange: '#ff7f00',
-				purple: '#7f00ff',
-				cyan: '#00ffff'
-			}
+			// colors: {
+			// 	purple: '#854dff',
+			// 	lightred: '#ff5757',
+			// 	white: '#ffffff',
+			// 	offwhite: '#f0f0f0',
+			// 	lightgrey: '#dbdbdb',
+			// 	smokeygrey: '#716f6f',
+			// 	offblack: '#141414'
+			// }
 		}
 	},
 
