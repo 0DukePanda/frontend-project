@@ -3,6 +3,9 @@
 	let year = $state();
 	let month = $state();
 	let day = $state();
+	let resultyear = $state();
+	let resutlmonth = $state();
+	let resultday = $state();
 </script>
 
 <h1 class="text-offblack text-2xl font-bold text-black">Age Calculator</h1>
@@ -40,8 +43,25 @@ border-red-600 bg-white p-4"
 				<iconify-icon icon="iconoir:arrow-down" class="text-5xl"></iconify-icon>
 			</button>
 		</div>
-		<div class="flex h-[215px] w-[550px] items-center justify-evenly border-4 border-yellow-500">
-			<div></div>
+		<div class="flex h-[215px] w-[550px] flex-col justify-evenly border-4 border-yellow-500">
+			<div class="ml-[30px] flex h-[50px] w-[240px] flex-row gap-2 border-2 border-green-400">
+				<div class=" h-[35px] w-[80px] justify-evenly border-2 border-teal-500">{resultyear}</div>
+				<div class=" h-[30px] w-[80px] border-2 border-purple-400">years</div>
+			</div>
+
+			<div
+				class=" justify-left ml-[30px] flex h-[50px] w-[240px] flex-row gap-2 border-2 border-green-400"
+			>
+				<div class=" h-[35px] w-[80px] border-2 border-teal-500">{resutlmonth}</div>
+				<div class=" h-[30px] w-[80px] border-2 border-purple-400">months</div>
+			</div>
+
+			<div
+				class=" justify-left ml-[30px] flex h-[50px] w-[240px] flex-row gap-2 border-2 border-green-400"
+			>
+				<div class=" h-[35px] w-[80px] border-2 border-teal-500">{resultday}</div>
+				<div class=" h-[30px] w-[80px] border-2 border-purple-400">days</div>
+			</div>
 		</div>
 	</div>
 </div>
