@@ -18,6 +18,10 @@ export default {
 			// 	smokeygrey: '#716f6f',
 			// 	offblack: '#141414'
 			// }
+
+			fontFamily: {
+				poppins: ['Poppins']
+			}
 		}
 	},
 
