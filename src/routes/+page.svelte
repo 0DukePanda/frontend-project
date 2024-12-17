@@ -66,7 +66,7 @@
 	}
 </script>
 
-<h1 class="text-offblack text-5xl font-bold text-purple-600">Age Calculator</h1>
+<h1 class="text-offblack text-7xl font-bold text-purple-600">Age Calculator</h1>
 <div
 	class="flex-container box-content flex h-[450px] w-[800px] flex-col rounded-l-3xl rounded-br-[175px] rounded-tr-3xl border-4
 border-white bg-white p-4"
@@ -79,7 +79,7 @@ border-white bg-white p-4"
 				</div>
 				<div>
 					<input
-						class="poppins-bold mt-[-10px] h-[35px] w-[100px] rounded-md text-2xl text-[#141414] placeholder:text-purple-400"
+						class="poppins-bold mt-[-10px] h-[35px] w-[100px] rounded-md text-2xl text-[#141414] placeholder:text-purple-300"
 						type="number"
 						placeholder="DD"
 						bind:value={day}
