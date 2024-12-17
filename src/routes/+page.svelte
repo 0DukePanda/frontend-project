@@ -93,7 +93,7 @@ border-white bg-white p-4"
 				</div>
 				<div>
 					<input
-						class="poppins-bold mt-[-10px] h-[35px] w-[100px] rounded-md text-2xl text-[#141414] placeholder:text-purple-400"
+						class="poppins-bold mt-[-10px] h-[35px] w-[100px] rounded-md text-2xl text-[#141414] placeholder:text-purple-300"
 						type="number"
 						placeholder="MM"
 						bind:value={month}
@@ -106,7 +106,7 @@ border-white bg-white p-4"
 				</div>
 				<div>
 					<input
-						class="poppins-bold mt-[-10px] h-[35px] w-[100px] rounded-md text-2xl text-[#141414] placeholder:text-purple-400"
+						class="poppins-bold mt-[-10px] h-[35px] w-[100px] rounded-md text-2xl text-[#141414] placeholder:text-purple-300"
 						type="number"
 						placeholder="YYYY"
 						bind:value={year}
